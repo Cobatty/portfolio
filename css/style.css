@@ -512,6 +512,14 @@ header {
     line-height: 1.7;
   }
 
+    header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(img/background-mobile.jpeg);
+    background-size:cover;
+    background-position:center;
+    height: auto;
+    background-attachment:fixed;
+}
+    
   .pc {
     display: none;
   }
