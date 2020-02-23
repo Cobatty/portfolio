@@ -12,7 +12,7 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   word-break: break-all;
-  color: #333;
+  color: #555;
 }
 
 a {
@@ -133,7 +133,7 @@ li {
 ヘッダー
 ---------------------------------*/
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url(img/background.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(img/background.jpeg);
     background-size:cover;
     background-position:center;
     height: 100vh;
@@ -254,17 +254,22 @@ header {
 }
 
 .card-caption-title {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   margin-top: 8px;
 }
 
 .card-caption-info {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .card-caption-url {
-  font-size: 10px;
+  font-size: 14px;
+}
+
+.card-description {
+  font-size: 12px;
+  text-align: left;
 }
 
 .card img.fadein {
@@ -327,6 +332,15 @@ header {
  ABOUT
 ---------------------------------*/
 
+#about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(img/profile-background.jpeg);
+  background-size:cover;
+  background-position:center;
+  height: 80vh;
+  background-attachment:fixed;
+  color: #fff;
+}
+
 #about .section-body {
   display: flex;
   flex-wrap: wrap;
@@ -346,7 +360,7 @@ header {
 #about .section-image img {
   margin: 0 auto;
   border-radius: 50%;
-  box-shadow: 0 0 25px 0 #d9d9d9;
+  width: 80%;
 }
 
 #about .section-desc {
